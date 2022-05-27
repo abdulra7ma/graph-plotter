@@ -9,16 +9,16 @@
 
 
 ## General info
-This python script provides is an Online blog that aims to encourage the young generation to read more.
+This python script provides some basic calculus that can be generated from the main functions, and plotted using `matplotlib`
 
 ## Setup
 1. install the task requirements
 ```
 pip install -r requirements.txt
 ```
-2. run the task
+2. run the script
 ```
-python manage.py
+python main.py
 ```
 
 ## More Customisation

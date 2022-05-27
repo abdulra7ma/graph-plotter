@@ -75,16 +75,15 @@ class Plotter:
         plt.legend(loc="upper left")
         plt.grid(True)
         self.board.show()
-    
-    
 
 
 funcs = CalculusFunction()
 plotter = Plotter()
 
-plotter.draw_graph(coord_y=funcs.function(plotter.inputs), label="Main function")
+plotter.draw_graph(
+    coord_y=funcs.function(plotter.inputs), label="Main function"
+)
 plotter.draw_graph(coord_y=funcs.deriv(plotter.inputs), label="Derivative")
 plotter.draw_graph(coord_y=funcs.intg(plotter.inputs), label="Integral")
 
 plotter.display()
-
